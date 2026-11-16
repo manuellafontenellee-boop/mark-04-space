@@ -1,0 +1,14 @@
+{
+  "name": "marco-04-space",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Four-player satellite construction game / Jogo de construção de satélites para quatro jogadores",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "build:html": "node build-html.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
